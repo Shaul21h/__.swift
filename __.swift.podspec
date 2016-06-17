@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "__.swift"
-  s.version      = "0.0.1"
+  s.version      = "v0.1.0"
   s.summary      = "__.swift is a port of Underscore.js to Swift"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   DESC
+                   "__.swift is a port of Underscore.js to Swift"
 
   s.homepage     = " http://lotz84.github.io/__.swift/v0.1/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/cloud-maxis/__.swift.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/cloud-maxis/__.swift.git", :tag => s.version}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
